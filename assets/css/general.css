@@ -1,17 +1,24 @@
 @import url('reset.css');
 
+body {
+  background-color: #f9f9f9;
+}
+
 .header {
   border-bottom: 1px solid #dadada;
+  margin-bottom: 46px;
 }
 
 .section {
   margin: 0 32px;
+  max-width: 1378px;
 }
 
 .section-header {
   display: flex;
   height: 108px;
   justify-content: space-between;
+  align-items: center;
 }
 
 .logo {
@@ -28,11 +35,10 @@
 
 .nav-header-list {
   display: flex;
-  
   gap: 40px;
 }
 
-.nav-header-list li a {
+.nav-header-list .nav-header-list-li a {
   color: #303031;
   text-decoration: none;
   font-family: Roboto;
@@ -41,5 +47,220 @@
   font-weight: 600;
   line-height: normal;
   letter-spacing: -0.36px;
+}
+
+.ham-menu {
+  display: none;
+}
+
+/* --------------------main------------- */
+
+.section-main {
+  display: flex;
+  justify-content: space-between;
+  gap: 68px;
+  margin-bottom: 188px;
+}
+
+main,
+.logo-main {
+  width: 100%;
+}
+
+.main-title {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.main-title-1 {
+  color: #303031;
+  font-family: Roboto;
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 80px;
+}
+
+.main-title-2 {
+  color: #66645e;
+  font-family: Open Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 133.333% */
+  letter-spacing: -0.48px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.main-button {
+  width: 220px;
+  height: 64px;
+  background-color: #71a894;
+  color: #ffffff;
+  cursor: pointer;
+  border-radius: 10px;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 133.333% */
+}
+
+/* --------------------remain------------- */
+
+.section-remain {
+  margin: 0 56px 194px;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+
+}
+
+.remain {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 24px;
+  text-align: center;
+}
+
+.remain-title {
+  color: #303031;
+  font-family: Roboto;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 64px; /* 133.333% */
+  text-align: center;
+}
+
+.remain-text {
+  color: #303031;
+  margin: auto;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 144.444% */
+  letter-spacing: -0.36px;
+  width: 896px;
+}
+
+.rema {
+  display: flex;
+  gap: 24px;
+}
+
+.remain-card {
+  display: flex;
+  flex-direction: column;
+  width: 428px;
+  height: 340px;
+  background-color: #ffffff;
+  /* gap: 24px; */
+  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.remain-card img {
+  width: 104px;
+  height: 88px;
   align-items: center;
+  margin: 64px auto 24px;
+}
+
+.remain-card-title {
+  text-align: center;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px; /* 133.333% */
+  margin-bottom: 16px;
+}
+
+.remain-card-text {
+  text-align: center;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 144.444% */
+}
+
+/* -------Kickstart-------- */
+
+.section-kick {
+  display: flex;
+  margin: 0 56px;
+  gap: 138px;
+}
+
+.members h3 {
+  color: #303031;
+  font-family: Roboto;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px; /* 125% */
+  letter-spacing: -0.64px;
+  margin-bottom: 28px;
+}
+
+.members {
+  width: 484px;
+  height: 400px;
+  border-radius: 16px;
+  border: 4px solid #303031;
+  background: #fff;
+  
+}
+
+.membran{
+  margin-left: 40px;
+  margin-top: 32px;
+  gap: 28px;
+}
+
+.member{
+  display: flex;
+  gap: 12px;
+  
+}
+
+.mem{
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+}
+
+.member-name{
+color: #303031;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 100;
+  line-height: 26px; /* 108.333% */
+  letter-spacing: -0.48px;
+}
+
+.member-share{
+  color:  #66645E;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px; /* 162.5% */
+  letter-spacing: -0.32px;
+}
+
+.member-desc{
+  align-items: center;
+  margin-top: auto;
 }
