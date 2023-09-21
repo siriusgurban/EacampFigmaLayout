@@ -88,7 +88,8 @@ main,
   font-size: 24px;
   font-style: normal;
   font-weight: 400;
-  line-height: 32px; /* 133.333% */
+  line-height: 32px;
+  /* 133.333% */
   letter-spacing: -0.48px;
 }
 
@@ -109,7 +110,8 @@ main,
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
-  line-height: 24px; /* 133.333% */
+  line-height: 24px;
+  /* 133.333% */
 }
 
 /* --------------------remain------------- */
@@ -136,7 +138,8 @@ main,
   font-size: 48px;
   font-style: normal;
   font-weight: 800;
-  line-height: 64px; /* 133.333% */
+  line-height: 64px;
+  /* 133.333% */
   text-align: center;
 }
 
@@ -147,7 +150,8 @@ main,
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
-  line-height: 26px; /* 144.444% */
+  line-height: 26px;
+  /* 144.444% */
   letter-spacing: -0.36px;
   width: 896px;
 }
@@ -181,7 +185,8 @@ main,
   font-size: 24px;
   font-style: normal;
   font-weight: 700;
-  line-height: 32px; /* 133.333% */
+  line-height: 32px;
+  /* 133.333% */
   margin-bottom: 16px;
 }
 
@@ -191,7 +196,8 @@ main,
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
-  line-height: 26px; /* 144.444% */
+  line-height: 26px;
+  /* 144.444% */
 }
 
 /* -------Kickstart-------- */
@@ -209,7 +215,8 @@ main,
   font-size: 32px;
   font-style: normal;
   font-weight: 700;
-  line-height: 40px; /* 125% */
+  line-height: 40px;
+  /* 125% */
   letter-spacing: -0.64px;
   margin-bottom: 28px;
 }
@@ -220,49 +227,129 @@ main,
   border-radius: 16px;
   border: 4px solid #303031;
   background: #fff;
-  
+
 }
 
-.membran{
+.membran {
   margin-left: 40px;
   margin-top: 32px;
   gap: 28px;
 }
 
-.member{
+.member {
   display: flex;
   gap: 12px;
-  
+
 }
 
-.mem{
+.mem {
   display: flex;
   flex-direction: column;
   gap: 26px;
 }
 
-.member-name{
-color: #303031;
+.member-name {
+  color: #303031;
   font-family: Roboto;
   font-size: 24px;
   font-style: italic;
   font-weight: 100;
-  line-height: 26px; /* 108.333% */
+  line-height: 26px;
+  /* 108.333% */
   letter-spacing: -0.48px;
 }
 
-.member-share{
-  color:  #66645E;
+.member-share {
+  color: #66645E;
   font-family: Roboto;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  line-height: 26px; /* 162.5% */
+  line-height: 26px;
+  /* 162.5% */
   letter-spacing: -0.32px;
 }
 
-.member-desc{
+.member-desc {
   align-items: center;
   margin-top: auto;
 }
 
+.kick {
+  display: flex;
+  gap: 24px;
+  flex-direction: column;
+  width: 644px;
+}
+
+.kick-img {
+  width: 80px;
+  height: 80px;
+
+}
+
+.kick-title {
+  color: #303031;
+  font-family: Roboto;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 64px;
+  /* 133.333% */
+}
+
+.kick-text {
+  color: #303031;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  /* 144.444% */
+  letter-spacing: -0.36px;
+}
+
+
+.jassir-desc {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.jassir-name {
+  color: #303031;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+  /* 133.333% */
+  letter-spacing: -0.48px;
+}
+
+.jassir-share {
+  color: #66645E;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 100;
+  line-height: 24px;
+  /* 150% */
+  letter-spacing: -0.32px;
+}
+
+.jassir-item {
+  color: #303031;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  /* 150% */
+  letter-spacing: -0.32px;
+}
+
+.Jassir-member{
+  display: flex;
+  gap: 12px;
+}
