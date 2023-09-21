@@ -200,6 +200,7 @@ main,
   display: flex;
   margin: 0 56px;
   gap: 138px;
+  margin-bottom: 180px;
 }
 
 .members h3 {
@@ -264,3 +265,4 @@ color: #303031;
   align-items: center;
   margin-top: auto;
 }
+
