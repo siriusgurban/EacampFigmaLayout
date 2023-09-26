@@ -1,4 +1,5 @@
 @import url('reset.css');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto:wght@400;500;700&display=swap');
 
 body {
   background-color: #f9f9f9;
@@ -419,6 +420,12 @@ main,
 
 /* --------------------- */
 
+.member-write {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
 .write-open-card {
   display: flex;
   justify-content: space-between;
@@ -473,16 +480,14 @@ main,
   margin: auto 72px 24px 72px;
 }
 
-
-
-.membran-app{
+.membran-app {
   display: flex;
   gap: 12px;
 }
 
 .mem-app {
   display: flex;
-  width: 380px;
+  width: 290px;
   padding: 32px 40px;
   flex-direction: column;
   justify-content: center;
@@ -525,6 +530,8 @@ main,
 }
 
 .alex {
+  display: flex;
+  flex-direction: column;
   width: 240px;
   height: 288px;
   flex-shrink: 0;
@@ -532,4 +539,248 @@ main,
   border-radius: 16px;
   border: 4px solid var(--Green, #71a894);
   background: var(--White, #fff);
+}
+
+.alex-rose {
+  display: flex;
+  flex-direction: column;
+  margin-top: 24px;
+  gap: 16px;
+}
+
+.alex-rose-img {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  margin: auto;
+}
+
+
+.alex-rose-card{
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.alex-rose-name {
+  color: var(--Black, #303031);
+  text-align: center;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 120% */
+  letter-spacing: -0.4px;
+}
+
+.alex-rose-text {
+  color: var(--Gray, #66645e);
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  letter-spacing: -0.32px;
+}
+
+.alexa{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin: auto;
+}
+
+.alex-rose-commit {
+  color: var(--Black, #303031);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: -0.32px;
+  justify-self: center;
+}
+
+.alex-rose-btn {
+  display: flex;
+  width: 192px;
+  padding: 12px 24px;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+
+  border-radius: 16px;
+  background: var(--Black, #303031);
+
+  color: var(--White, #fff);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px; /* 125% */
+  letter-spacing: -0.32px;
+}
+
+/* ------------------------------------- */
+
+.upda {
+  display: flex;
+  gap: 28px;
+  margin-bottom: 64px;
+  align-items: center;
+}
+
+.update {
+  padding: 24px 24px 0 24px;
+  width: 428px;
+  height: 216px;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+
+  border-radius: 16px;
+  background: var(--White, #fff);
+
+  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.1);
+}
+
+.update-card {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.update-card-title {
+  color: var(--Black, #303031);
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 133.333% */
+  letter-spacing: -0.36px;
+}
+
+.update-card-text {
+  color: var(--Black, #303031);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  letter-spacing: -0.32px;
+}
+
+.update-card-sub {
+  display: flex;
+  justify-content: space-between;
+}
+
+.update-card-date {
+  color: var(--Black, #303031);
+  text-align: right;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 100;
+  line-height: 24px; /* 150% */
+  letter-spacing: -0.32px;
+}
+
+.view {
+  width: 134px;
+  height: 64px;
+
+  color: var(--White, #fff);
+  text-align: center;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 133.333% */
+
+  display: inline-flex;
+  padding: 16px 20px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 8px;
+  background: var(--Black, #303031);
+  margin: auto;
+}
+
+/* -------------Start------------------- */
+
+.start {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.start-title {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.start-title-1 {
+  color: var(--Black, #303031);
+  font-family: Roboto;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 64px; /* 133.333% */
+}
+
+.start-title-2 {
+  color: var(--Black, #303031);
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 144.444% */
+  letter-spacing: -0.36px;
+}
+
+/* ----------------------------- */
+
+.foot {
+  display: flex;
+  justify-content: space-between;
+  margin: auto 56px 40px 56px;
+}
+
+.open {
+  color: var(--Black, #303031);
+  font-family: Open Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.96px;
+}
+
+.doc {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+
+
+.doc li a{
+  text-decoration: none; 
+  color: #303031;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.4px;
+}
+
+.doc-blue{
+  color: var(--Green, #71a894);
 }
